@@ -2,9 +2,9 @@ services:
   - type: web
     name: engineering-knowledge-os
     runtime: node
+    rootDir: engineering-knowledge-os
     buildCommand: npm install && npm run build
     startCommand: npm start
-
     envVars:
       - key: NODE_VERSION
         value: 22
