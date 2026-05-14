@@ -19,7 +19,7 @@ export default function ProfileCard() {
         </p>
 
         <p>
-          Airport Building Services and Automation Engineer
+          Automation & Building Services Engineer
         </p>
 
         <p>
