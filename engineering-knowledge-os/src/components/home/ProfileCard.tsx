@@ -14,7 +14,7 @@ export default function ProfileCard() {
           B.Eng (Electrical Power Engineering), WYTU
         </p>
 
-        <p className="font-black text-white">
+        <p>
           Full Stack Developer
         </p>
 
