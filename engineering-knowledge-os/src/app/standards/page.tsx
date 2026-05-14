@@ -4,7 +4,7 @@ import { standards } from "@/data/standards/standards";
 
 export default function StandardsPage() {
   return (
-    <main className="overflow-x-hidden" className="min-h-screen bg-slate-50">
+    <main className="min-h-screen overflow-x-hidden bg-slate-50">
       <Navbar />
       <PageHero label="Professional Reference" title="Standards Library" description="Engineering standards and professional references connected to your five core domains." />
       <section className="mx-auto grid max-w-7xl gap-6 px-6 py-10 md:grid-cols-2">

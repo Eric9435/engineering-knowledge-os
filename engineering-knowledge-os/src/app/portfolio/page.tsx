@@ -4,7 +4,7 @@ import { portfolioProjects } from "@/data/portfolio/portfolio";
 
 export default function PortfolioPage() {
   return (
-    <main className="overflow-x-hidden" className="min-h-screen bg-slate-50">
+    <main className="min-h-screen overflow-x-hidden bg-slate-50">
       <Navbar />
       <PageHero label="Career & MSc Portfolio" title="Portfolio Builder" description="Your project portfolio system for Germany MSc applications, GitHub, CV, and professional engineering profile." />
       <section className="mx-auto max-w-7xl px-6 py-10">

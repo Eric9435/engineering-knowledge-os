@@ -14,7 +14,7 @@ export default async function DomainPage({ params }: Props) {
   if (!domain) notFound();
 
   return (
-    <main className="overflow-x-hidden" className="min-h-screen bg-slate-50">
+    <main className="min-h-screen overflow-x-hidden bg-slate-50">
       <Navbar />
 
       <aside className="fixed left-6 top-24 z-40 hidden h-[calc(100vh-120px)] w-[380px] rounded-[2rem] border border-slate-200 bg-white p-6 shadow-sm xl:block">

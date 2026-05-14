@@ -29,7 +29,7 @@ export default async function TopicPage({ params }: Props) {
 
   if (!topicData) {
     return (
-      <main className="overflow-x-hidden" className="min-h-screen bg-slate-50">
+      <main className="min-h-screen overflow-x-hidden bg-slate-50">
         <Navbar />
         <div className="mx-auto max-w-5xl px-6 py-20">
           <div className="rounded-[2rem] border border-slate-200 bg-white p-10 shadow-sm">
@@ -48,7 +48,7 @@ export default async function TopicPage({ params }: Props) {
   }
 
   return (
-    <main className="overflow-x-hidden" className="min-h-screen bg-slate-50">
+    <main className="min-h-screen overflow-x-hidden bg-slate-50">
       <Navbar />
 
       <div className="px-6 py-8 xl:ml-[420px]">

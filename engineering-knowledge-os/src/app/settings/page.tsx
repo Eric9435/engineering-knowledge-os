@@ -3,7 +3,7 @@ import PageHero from "@/components/common/PageHero";
 
 export default function SettingsPage() {
   return (
-    <main className="overflow-x-hidden" className="min-h-screen bg-slate-50">
+    <main className="min-h-screen overflow-x-hidden bg-slate-50">
       <Navbar />
       <PageHero label="System Control" title="Settings" description="Personal configuration area for your Engineering Knowledge OS." />
       <section className="mx-auto max-w-7xl px-6 py-10">

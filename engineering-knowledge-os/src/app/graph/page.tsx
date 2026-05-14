@@ -3,7 +3,7 @@ import KnowledgeGraph from "@/components/graph/KnowledgeGraph";
 
 export default function GraphPage() {
   return (
-    <main className="overflow-x-hidden" className="min-h-screen bg-slate-50">
+    <main className="min-h-screen overflow-x-hidden bg-slate-50">
       <section className="border-b border-slate-200 bg-white">
         <div className="mx-auto max-w-7xl px-6 py-12">
           <Link

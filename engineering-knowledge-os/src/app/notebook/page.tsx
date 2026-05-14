@@ -4,7 +4,7 @@ import NotebookClient from "@/components/notebook/NotebookClient";
 
 export default function NotebookPage() {
   return (
-    <main className="overflow-x-hidden" className="min-h-screen bg-slate-50">
+    <main className="min-h-screen overflow-x-hidden bg-slate-50">
       <Navbar />
       <PageHero
         label="Personal Technical Memory"

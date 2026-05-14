@@ -4,7 +4,7 @@ import { troubleshootingCases } from "@/data/troubleshooting/troubleshooting";
 
 export default function TroubleshootingPage() {
   return (
-    <main className="overflow-x-hidden" className="min-h-screen bg-slate-50">
+    <main className="min-h-screen overflow-x-hidden bg-slate-50">
       <Navbar />
       <PageHero label="Engineering Diagnosis" title="Troubleshooting Library" description="Professional diagnostic cases for HVAC, electrical, automation, power quality, and communication systems." />
       <section className="mx-auto grid max-w-7xl gap-6 px-6 py-10 md:grid-cols-2">

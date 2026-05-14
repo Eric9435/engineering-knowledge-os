@@ -2,7 +2,7 @@ import Navbar from "@/components/layout/Navbar";
 
 export default function Page() {
   return (
-    <main className="overflow-x-hidden" className="min-h-screen bg-slate-50">
+    <main className="min-h-screen overflow-x-hidden bg-slate-50">
       <Navbar />
 
       <section className="border-b border-slate-200 bg-white">
