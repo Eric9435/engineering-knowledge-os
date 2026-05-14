@@ -9,11 +9,15 @@ export default function ProfileCard() {
         Aung Phone Myat
       </h2>
 
-      <p className="mt-2 text-sm font-semibold leading-6 text-blue-100">
-        B.Eng (Electrical Power Engineering), WYTU
-      </p>
+      <div className="mt-4 space-y-3 text-sm leading-6 text-blue-100">
+        <p className="font-semibold">
+          B.Eng (Electrical Power Engineering), WYTU
+        </p>
 
-      <div className="mt-5 space-y-3 text-xs leading-5 text-blue-50">
+        <p className="font-black text-white">
+          Full Stack Developer
+        </p>
+
         <p>
           Airport Building Services and Automation Engineer
         </p>
