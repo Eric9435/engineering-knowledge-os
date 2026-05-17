@@ -4,20 +4,19 @@ export const acoustics_iso_acoustic = {
   title: "ISO Acoustic",
   category: "acoustics",
   organization: "ISO",
-  summary:
-    "ISO Acoustic is an engineering, building, software, scientific, industrial or technical standard used for design compliance, safety, operation, commissioning, maintenance and professional engineering documentation.",
+  summary: "ISO Acoustic engineering standard and technical reference.",
 
   sections: [
     {
       title: "Overview",
       body: `
-ISO Acoustic is part of the engineering standards ecosystem. It can be used as a reference for technical design, code compliance, professional engineering review, construction coordination, operation, maintenance and safety management.
+ISO Acoustic is part of the global engineering standards ecosystem used for design, compliance, commissioning, operation, safety and technical engineering documentation.
 `
     },
     {
-      title: "Engineering Application",
+      title: "Applications",
       body: `
-This standard can be connected with Engineering Knowledge OS topics such as Building Services, HVAC, Fire Protection, Electrical Engineering, Automation, Smart Building, Scientific Computing, Software Engineering and Industrial Systems.
+This standard can be connected with HVAC, electrical, automation, BMS, smart building, industrial engineering, scientific computing and infrastructure systems.
 `
     }
   ]

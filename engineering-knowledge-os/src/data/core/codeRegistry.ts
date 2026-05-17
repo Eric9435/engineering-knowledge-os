@@ -1,3 +1,103 @@
+import { structural_eurocode_0 } from "./codes/structural/eurocode-0";
+import { structural_eurocode_1 } from "./codes/structural/eurocode-1";
+import { structural_eurocode_2 } from "./codes/structural/eurocode-2";
+import { structural_eurocode_3 } from "./codes/structural/eurocode-3";
+import { structural_eurocode_4 } from "./codes/structural/eurocode-4";
+import { structural_eurocode_5 } from "./codes/structural/eurocode-5";
+import { structural_eurocode_6 } from "./codes/structural/eurocode-6";
+import { structural_eurocode_7 } from "./codes/structural/eurocode-7";
+import { structural_eurocode_8 } from "./codes/structural/eurocode-8";
+import { structural_eurocode_9 } from "./codes/structural/eurocode-9";
+import { structural_aisc_360 } from "./codes/structural/aisc-360";
+import { structural_bs_8110 } from "./codes/structural/bs-8110";
+import { structural_csa_a23_3 } from "./codes/structural/csa-a23-3";
+import { geotechnical_bs_8004 } from "./codes/geotechnical/bs-8004";
+import { geotechnical_eurocode_7 } from "./codes/geotechnical/eurocode-7";
+import { geotechnical_fhwa_geotechnical } from "./codes/geotechnical/fhwa-geotechnical";
+import { geotechnical_aashto_lrfd } from "./codes/geotechnical/aashto-lrfd";
+import { geotechnical_deep_foundation_institute } from "./codes/geotechnical/deep-foundation-institute";
+import { geotechnical_pile_design_standards } from "./codes/geotechnical/pile-design-standards";
+import { building_codes_ibc } from "./codes/building-codes/ibc";
+import { building_codes_imc } from "./codes/building-codes/imc";
+import { building_codes_ipc } from "./codes/building-codes/ipc";
+import { building_codes_ifc_fire_code } from "./codes/building-codes/ifc-fire-code";
+import { building_codes_iecc } from "./codes/building-codes/iecc";
+import { building_codes_international_green_construction_code } from "./codes/building-codes/international-green-construction-code";
+import { building_codes_singapore_building_control_act } from "./codes/building-codes/singapore-building-control-act";
+import { building_codes_bca_approved_documents } from "./codes/building-codes/bca-approved-documents";
+import { germany_din } from "./codes/germany/din";
+import { germany_vde } from "./codes/germany/vde";
+import { germany_din_en } from "./codes/germany/din-en";
+import { germany_vdi } from "./codes/germany/vdi";
+import { germany_din_4102 } from "./codes/germany/din-4102";
+import { germany_vde_0100 } from "./codes/germany/vde-0100";
+import { germany_vob } from "./codes/germany/vob";
+import { europe_en_standards } from "./codes/europe/en-standards";
+import { europe_ce_marking } from "./codes/europe/ce-marking";
+import { europe_machinery_directive } from "./codes/europe/machinery-directive";
+import { europe_low_voltage_directive } from "./codes/europe/low-voltage-directive";
+import { europe_atex_directive } from "./codes/europe/atex-directive";
+import { europe_pressure_equipment_directive } from "./codes/europe/pressure-equipment-directive";
+import { japan_jis } from "./codes/japan/jis";
+import { japan_japanese_fire_code } from "./codes/japan/japanese-fire-code";
+import { japan_japanese_electrical_standards } from "./codes/japan/japanese-electrical-standards";
+import { korea_ks_standards } from "./codes/korea/ks-standards";
+import { korea_korean_fire_code } from "./codes/korea/korean-fire-code";
+import { korea_kec } from "./codes/korea/kec";
+import { railway_en_50126 } from "./codes/railway/en-50126";
+import { railway_uic_standards } from "./codes/railway/uic-standards";
+import { railway_railway_signalling_standards } from "./codes/railway/railway-signalling-standards";
+import { robotics_iso_10218 } from "./codes/robotics/iso-10218";
+import { robotics_iso_ts_15066 } from "./codes/robotics/iso-ts-15066";
+import { robotics_ria_standards } from "./codes/robotics/ria-standards";
+import { cybersecurity_iec_62443 } from "./codes/cybersecurity/iec-62443";
+import { cybersecurity_nist_cybersecurity_framework } from "./codes/cybersecurity/nist-cybersecurity-framework";
+import { cybersecurity_iso_27001 } from "./codes/cybersecurity/iso-27001";
+import { cybersecurity_owasp_top_10 } from "./codes/cybersecurity/owasp-top-10";
+import { data_center_uptime_tier_standards } from "./codes/data-center/uptime-tier-standards";
+import { data_center_data_center_energy_standards } from "./codes/data-center/data-center-energy-standards";
+import { oil_gas_api_610 } from "./codes/oil-gas/api-610";
+import { oil_gas_api_650 } from "./codes/oil-gas/api-650";
+import { oil_gas_api_653 } from "./codes/oil-gas/api-653";
+import { oil_gas_api_rp_14c } from "./codes/oil-gas/api-rp-14c";
+import { oil_gas_atex } from "./codes/oil-gas/atex";
+import { marine_abs } from "./codes/marine/abs";
+import { marine_lloyds_register } from "./codes/marine/lloyds-register";
+import { marine_solas } from "./codes/marine/solas";
+import { aviation_icao_annexes } from "./codes/aviation/icao-annexes";
+import { aviation_faa_standards } from "./codes/aviation/faa-standards";
+import { aviation_easa_standards } from "./codes/aviation/easa-standards";
+import { aviation_airport_fire_standards } from "./codes/aviation/airport-fire-standards";
+import { aviation_airport_bms_standards } from "./codes/aviation/airport-bms-standards";
+import { medical_iso_13485 } from "./codes/medical/iso-13485";
+import { medical_fda_medical_device_standards } from "./codes/medical/fda-medical-device-standards";
+import { telecom_itu } from "./codes/telecom/itu";
+import { telecom_5g_standards } from "./codes/telecom/5g-standards";
+import { telecom_fiber_optic_standards } from "./codes/telecom/fiber-optic-standards";
+import { semiconductor_cleanroom_standards } from "./codes/semiconductor/cleanroom-standards";
+import { nuclear_asme_nuclear } from "./codes/nuclear/asme-nuclear";
+import { nuclear_nrc_standards } from "./codes/nuclear/nrc-standards";
+import { battery_ev_ul_9540a } from "./codes/battery-ev/ul-9540a";
+import { battery_ev_ev_charging_standards } from "./codes/battery-ev/ev-charging-standards";
+import { hydrogen_hydrogen_safety_standards } from "./codes/hydrogen/hydrogen-safety-standards";
+import { water_treatment_nsf_water_standards } from "./codes/water-treatment/nsf-water-standards";
+import { water_treatment_water_reuse_standards } from "./codes/water-treatment/water-reuse-standards";
+import { bim_cobie } from "./codes/bim/cobie";
+import { bim_bim_iso_19650 } from "./codes/bim/bim-iso-19650";
+import { gis_geojson } from "./codes/gis/geojson";
+import { gis_wms } from "./codes/gis/wms";
+import { gis_wfs } from "./codes/gis/wfs";
+import { renewable_energy_battery_storage_standards } from "./codes/renewable-energy/battery-storage-standards";
+import { renewable_energy_grid_integration_standards } from "./codes/renewable-energy/grid-integration-standards";
+import { quantum_quantum_computing_standards } from "./codes/quantum/quantum-computing-standards";
+import { defense_nato_standards } from "./codes/defense/nato-standards";
+import { food_food_safety_standards } from "./codes/food/food-safety-standards";
+import { pharma_pharmaceutical_cleanroom_standards } from "./codes/pharma/pharmaceutical-cleanroom-standards";
+import { mining_underground_ventilation_standards } from "./codes/mining/underground-ventilation-standards";
+import { lighting_lighting_energy_standards } from "./codes/lighting/lighting-energy-standards";
+import { acoustics_noise_control_standards } from "./codes/acoustics/noise-control-standards";
+import { emc_emc_directive } from "./codes/emc/emc-directive";
+import { emc_iec_emc_standards } from "./codes/emc/iec-emc-standards";
 import { international_iso } from "./codes/international/iso";
 import { international_iec } from "./codes/international/iec";
 import { international_ieee } from "./codes/international/ieee";
@@ -420,4 +520,104 @@ export const codeRegistry: Record<string, any> = {
   "airports-icao-annexes": airports_icao_annexes,
   "emc-cispr": emc_cispr,
   "audio-aes": audio_aes,
+  "structural-eurocode-0": structural_eurocode_0,
+  "structural-eurocode-1": structural_eurocode_1,
+  "structural-eurocode-2": structural_eurocode_2,
+  "structural-eurocode-3": structural_eurocode_3,
+  "structural-eurocode-4": structural_eurocode_4,
+  "structural-eurocode-5": structural_eurocode_5,
+  "structural-eurocode-6": structural_eurocode_6,
+  "structural-eurocode-7": structural_eurocode_7,
+  "structural-eurocode-8": structural_eurocode_8,
+  "structural-eurocode-9": structural_eurocode_9,
+  "structural-aisc-360": structural_aisc_360,
+  "structural-bs-8110": structural_bs_8110,
+  "structural-csa-a23-3": structural_csa_a23_3,
+  "geotechnical-bs-8004": geotechnical_bs_8004,
+  "geotechnical-eurocode-7": geotechnical_eurocode_7,
+  "geotechnical-fhwa-geotechnical": geotechnical_fhwa_geotechnical,
+  "geotechnical-aashto-lrfd": geotechnical_aashto_lrfd,
+  "geotechnical-deep-foundation-institute": geotechnical_deep_foundation_institute,
+  "geotechnical-pile-design-standards": geotechnical_pile_design_standards,
+  "building-codes-ibc": building_codes_ibc,
+  "building-codes-imc": building_codes_imc,
+  "building-codes-ipc": building_codes_ipc,
+  "building-codes-ifc-fire-code": building_codes_ifc_fire_code,
+  "building-codes-iecc": building_codes_iecc,
+  "building-codes-international-green-construction-code": building_codes_international_green_construction_code,
+  "building-codes-singapore-building-control-act": building_codes_singapore_building_control_act,
+  "building-codes-bca-approved-documents": building_codes_bca_approved_documents,
+  "germany-din": germany_din,
+  "germany-vde": germany_vde,
+  "germany-din-en": germany_din_en,
+  "germany-vdi": germany_vdi,
+  "germany-din-4102": germany_din_4102,
+  "germany-vde-0100": germany_vde_0100,
+  "germany-vob": germany_vob,
+  "europe-en-standards": europe_en_standards,
+  "europe-ce-marking": europe_ce_marking,
+  "europe-machinery-directive": europe_machinery_directive,
+  "europe-low-voltage-directive": europe_low_voltage_directive,
+  "europe-atex-directive": europe_atex_directive,
+  "europe-pressure-equipment-directive": europe_pressure_equipment_directive,
+  "japan-jis": japan_jis,
+  "japan-japanese-fire-code": japan_japanese_fire_code,
+  "japan-japanese-electrical-standards": japan_japanese_electrical_standards,
+  "korea-ks-standards": korea_ks_standards,
+  "korea-korean-fire-code": korea_korean_fire_code,
+  "korea-kec": korea_kec,
+  "railway-en-50126": railway_en_50126,
+  "railway-uic-standards": railway_uic_standards,
+  "railway-railway-signalling-standards": railway_railway_signalling_standards,
+  "robotics-iso-10218": robotics_iso_10218,
+  "robotics-iso-ts-15066": robotics_iso_ts_15066,
+  "robotics-ria-standards": robotics_ria_standards,
+  "cybersecurity-iec-62443": cybersecurity_iec_62443,
+  "cybersecurity-nist-cybersecurity-framework": cybersecurity_nist_cybersecurity_framework,
+  "cybersecurity-iso-27001": cybersecurity_iso_27001,
+  "cybersecurity-owasp-top-10": cybersecurity_owasp_top_10,
+  "data-center-uptime-tier-standards": data_center_uptime_tier_standards,
+  "data-center-data-center-energy-standards": data_center_data_center_energy_standards,
+  "oil-gas-api-610": oil_gas_api_610,
+  "oil-gas-api-650": oil_gas_api_650,
+  "oil-gas-api-653": oil_gas_api_653,
+  "oil-gas-api-rp-14c": oil_gas_api_rp_14c,
+  "oil-gas-atex": oil_gas_atex,
+  "marine-abs": marine_abs,
+  "marine-lloyds-register": marine_lloyds_register,
+  "marine-solas": marine_solas,
+  "aviation-icao-annexes": aviation_icao_annexes,
+  "aviation-faa-standards": aviation_faa_standards,
+  "aviation-easa-standards": aviation_easa_standards,
+  "aviation-airport-fire-standards": aviation_airport_fire_standards,
+  "aviation-airport-bms-standards": aviation_airport_bms_standards,
+  "medical-iso-13485": medical_iso_13485,
+  "medical-fda-medical-device-standards": medical_fda_medical_device_standards,
+  "telecom-itu": telecom_itu,
+  "telecom-5g-standards": telecom_5g_standards,
+  "telecom-fiber-optic-standards": telecom_fiber_optic_standards,
+  "semiconductor-cleanroom-standards": semiconductor_cleanroom_standards,
+  "nuclear-asme-nuclear": nuclear_asme_nuclear,
+  "nuclear-nrc-standards": nuclear_nrc_standards,
+  "battery-ev-ul-9540a": battery_ev_ul_9540a,
+  "battery-ev-ev-charging-standards": battery_ev_ev_charging_standards,
+  "hydrogen-hydrogen-safety-standards": hydrogen_hydrogen_safety_standards,
+  "water-treatment-nsf-water-standards": water_treatment_nsf_water_standards,
+  "water-treatment-water-reuse-standards": water_treatment_water_reuse_standards,
+  "bim-cobie": bim_cobie,
+  "bim-bim-iso-19650": bim_bim_iso_19650,
+  "gis-geojson": gis_geojson,
+  "gis-wms": gis_wms,
+  "gis-wfs": gis_wfs,
+  "renewable-energy-battery-storage-standards": renewable_energy_battery_storage_standards,
+  "renewable-energy-grid-integration-standards": renewable_energy_grid_integration_standards,
+  "quantum-quantum-computing-standards": quantum_quantum_computing_standards,
+  "defense-nato-standards": defense_nato_standards,
+  "food-food-safety-standards": food_food_safety_standards,
+  "pharma-pharmaceutical-cleanroom-standards": pharma_pharmaceutical_cleanroom_standards,
+  "mining-underground-ventilation-standards": mining_underground_ventilation_standards,
+  "lighting-lighting-energy-standards": lighting_lighting_energy_standards,
+  "acoustics-noise-control-standards": acoustics_noise_control_standards,
+  "emc-emc-directive": emc_emc_directive,
+  "emc-iec-emc-standards": emc_iec_emc_standards,
 };

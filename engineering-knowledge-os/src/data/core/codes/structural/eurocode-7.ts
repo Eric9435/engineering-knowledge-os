@@ -1,0 +1,23 @@
+export const structural_eurocode_7 = {
+  id: "eurocode-7",
+  code: "Eurocode 7",
+  title: "Eurocode 7",
+  category: "structural",
+  organization: "Eurocode",
+  summary: "Eurocode 7 engineering standard and technical reference.",
+
+  sections: [
+    {
+      title: "Overview",
+      body: `
+Eurocode 7 is part of the global engineering standards ecosystem used for design, compliance, commissioning, operation, safety and technical engineering documentation.
+`
+    },
+    {
+      title: "Applications",
+      body: `
+This standard can be connected with HVAC, electrical, automation, BMS, smart building, industrial engineering, scientific computing and infrastructure systems.
+`
+    }
+  ]
+};
