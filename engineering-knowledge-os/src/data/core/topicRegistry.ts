@@ -1,3 +1,35 @@
+import * as chemistry_foundations_of_chemistry from "@/data/core/topics/chemistry/foundations-of-chemistry";
+import * as chemistry_general_chemistry from "@/data/core/topics/chemistry/general-chemistry";
+import * as chemistry_inorganic_chemistry from "@/data/core/topics/chemistry/inorganic-chemistry";
+import * as chemistry_organic_chemistry from "@/data/core/topics/chemistry/organic-chemistry";
+import * as chemistry_physical_chemistry from "@/data/core/topics/chemistry/physical-chemistry";
+import * as chemistry_analytical_chemistry from "@/data/core/topics/chemistry/analytical-chemistry";
+import * as chemistry_biochemistry from "@/data/core/topics/chemistry/biochemistry";
+import * as chemistry_materials_chemistry from "@/data/core/topics/chemistry/materials-chemistry";
+import * as chemistry_environmental_chemistry from "@/data/core/topics/chemistry/environmental-chemistry";
+import * as chemistry_industrial_engineering_chemistry from "@/data/core/topics/chemistry/industrial-engineering-chemistry";
+import * as chemistry_electrochemistry from "@/data/core/topics/chemistry/electrochemistry";
+import * as chemistry_nuclear_chemistry from "@/data/core/topics/chemistry/nuclear-chemistry";
+import * as chemistry_computational_ai_chemistry from "@/data/core/topics/chemistry/computational-ai-chemistry";
+import * as chemistry_frontier_chemistry from "@/data/core/topics/chemistry/frontier-chemistry";
+import * as chemistry_chemistry_database_layer from "@/data/core/topics/chemistry/chemistry-database-layer";
+
+import * as physics_foundations_of_physics from "@/data/core/topics/physics/foundations-of-physics";
+import * as physics_mathematical_physics from "@/data/core/topics/physics/mathematical-physics";
+import * as physics_classical_mechanics from "@/data/core/topics/physics/classical-mechanics";
+import * as physics_gravitation from "@/data/core/topics/physics/gravitation";
+import * as physics_fluid_mechanics from "@/data/core/topics/physics/fluid-mechanics";
+import * as physics_thermodynamics from "@/data/core/topics/physics/thermodynamics";
+import * as physics_waves_oscillations_acoustics from "@/data/core/topics/physics/waves-oscillations-acoustics";
+import * as physics_electricity_magnetism from "@/data/core/topics/physics/electricity-magnetism";
+import * as physics_optics from "@/data/core/topics/physics/optics";
+import * as physics_relativity from "@/data/core/topics/physics/relativity";
+import * as physics_quantum_physics from "@/data/core/topics/physics/quantum-physics";
+import * as physics_atomic_nuclear_particle from "@/data/core/topics/physics/atomic-nuclear-particle";
+import * as physics_condensed_plasma_astrophysics from "@/data/core/topics/physics/condensed-plasma-astrophysics";
+import * as physics_computational_biophysics_frontier from "@/data/core/topics/physics/computational-biophysics-frontier";
+import * as physics_experiments_constants_equations_unsolved from "@/data/core/topics/physics/experiments-constants-equations-unsolved";
+
 import { predictive_maintenance } from "./topics/automation/advanced-automation/predictive-maintenance";
 import { digital_twin_automation } from "./topics/automation/advanced-automation/digital-twin-automation";
 import { industrial_iot } from "./topics/automation/advanced-automation/industrial-iot";
@@ -239,6 +271,36 @@ export const topicRegistry: Record<string, any> = {
   "chiller-plant": chillerPlant,
   "ahu-and-fcu": ahuAndFcu,
   "duct-and-air-distribution": ductAndAirDistribution,
+  "foundations-of-physics": physics_foundations_of_physics,
+  "mathematical-physics": physics_mathematical_physics,
+  "classical-mechanics": physics_classical_mechanics,
+  "gravitation": physics_gravitation,
+  "fluid-mechanics": physics_fluid_mechanics,
+  "thermodynamics": physics_thermodynamics,
+  "waves-oscillations-acoustics": physics_waves_oscillations_acoustics,
+  "electricity-magnetism": physics_electricity_magnetism,
+  "optics": physics_optics,
+  "relativity": physics_relativity,
+  "quantum-physics": physics_quantum_physics,
+  "atomic-nuclear-particle": physics_atomic_nuclear_particle,
+  "condensed-plasma-astrophysics": physics_condensed_plasma_astrophysics,
+  "computational-biophysics-frontier": physics_computational_biophysics_frontier,
+  "experiments-constants-equations-unsolved": physics_experiments_constants_equations_unsolved,
+  "foundations-of-chemistry": chemistry_foundations_of_chemistry,
+  "general-chemistry": chemistry_general_chemistry,
+  "inorganic-chemistry": chemistry_inorganic_chemistry,
+  "organic-chemistry": chemistry_organic_chemistry,
+  "physical-chemistry": chemistry_physical_chemistry,
+  "analytical-chemistry": chemistry_analytical_chemistry,
+  "biochemistry": chemistry_biochemistry,
+  "materials-chemistry": chemistry_materials_chemistry,
+  "environmental-chemistry": chemistry_environmental_chemistry,
+  "industrial-engineering-chemistry": chemistry_industrial_engineering_chemistry,
+  "electrochemistry": chemistry_electrochemistry,
+  "nuclear-chemistry": chemistry_nuclear_chemistry,
+  "computational-ai-chemistry": chemistry_computational_ai_chemistry,
+  "frontier-chemistry": chemistry_frontier_chemistry,
+  "chemistry-database-layer": chemistry_chemistry_database_layer,
 };
 
 export function getTopic(topicId: string) {

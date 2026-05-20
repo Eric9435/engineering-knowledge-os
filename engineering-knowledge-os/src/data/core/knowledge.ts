@@ -285,4 +285,226 @@ export const knowledge = [
       }
     ]
   }
+
+,
+{
+  id: "physics",
+  title: "Physics",
+  description:
+    "Ultra complete physics hierarchy covering classical mechanics, thermodynamics, electromagnetism, optics, relativity, quantum physics, particle physics, astrophysics, computational physics and frontier theoretical physics.",
+
+  categories: [
+    {
+      id: "foundations-of-physics",
+      title: "Foundations of Physics",
+      topics: [{ id: "foundations-of-physics", title: "Foundations of Physics" }]
+    },
+    {
+      id: "mathematical-physics",
+      title: "Mathematical Physics",
+      topics: [{ id: "mathematical-physics", title: "Mathematical Physics" }]
+    },
+    {
+      id: "classical-mechanics",
+      title: "Classical Mechanics",
+      topics: [{ id: "classical-mechanics", title: "Classical Mechanics" }]
+    },
+    {
+      id: "gravitation",
+      title: "Gravitation",
+      topics: [{ id: "gravitation", title: "Gravitation" }]
+    },
+    {
+      id: "fluid-mechanics",
+      title: "Fluid Mechanics",
+      topics: [{ id: "fluid-mechanics", title: "Fluid Mechanics" }]
+    },
+    {
+      id: "thermodynamics",
+      title: "Thermodynamics",
+      topics: [{ id: "thermodynamics", title: "Thermodynamics" }]
+    },
+    {
+      id: "waves-oscillations-acoustics",
+      title: "Waves, Oscillations & Acoustics",
+      topics: [{ id: "waves-oscillations-acoustics", title: "Waves, Oscillations & Acoustics" }]
+    },
+    {
+      id: "electricity-magnetism",
+      title: "Electricity, Magnetism & Electromagnetism",
+      topics: [{ id: "electricity-magnetism", title: "Electricity, Magnetism & Electromagnetism" }]
+    },
+    {
+      id: "optics",
+      title: "Optics",
+      topics: [{ id: "optics", title: "Optics" }]
+    },
+    {
+      id: "relativity",
+      title: "Relativity",
+      topics: [{ id: "relativity", title: "Relativity" }]
+    },
+    {
+      id: "quantum-physics",
+      title: "Quantum Physics",
+      topics: [{ id: "quantum-physics", title: "Quantum Physics" }]
+    },
+    {
+      id: "atomic-nuclear-particle",
+      title: "Atomic, Nuclear & Particle Physics",
+      topics: [{ id: "atomic-nuclear-particle", title: "Atomic, Nuclear & Particle Physics" }]
+    },
+    {
+      id: "condensed-plasma-astrophysics",
+      title: "Condensed Matter, Plasma & Astrophysics",
+      topics: [{ id: "condensed-plasma-astrophysics", title: "Condensed Matter, Plasma & Astrophysics" }]
+    },
+    {
+      id: "computational-biophysics-frontier",
+      title: "Computational, Biophysics & Frontier Physics",
+      topics: [{ id: "computational-biophysics-frontier", title: "Computational, Biophysics & Frontier Physics" }]
+    },
+    {
+      id: "experiments-constants-equations-unsolved",
+      title: "Experiments, Constants, Equations & Unsolved Problems",
+      topics: [{ id: "experiments-constants-equations-unsolved", title: "Experiments, Constants, Equations & Unsolved Problems" }]
+    }
+  ]
+}
+
+
+,
+{
+  id: "chemistry",
+  title: "Chemistry",
+  description:
+    "Ultra complete chemistry hierarchy covering general chemistry, organic chemistry, inorganic chemistry, physical chemistry, analytical chemistry, materials chemistry, computational chemistry, AI chemistry and frontier chemistry.",
+
+  categories: [
+
+    {
+      id: "foundations-of-chemistry",
+      title: "Foundations of Chemistry",
+      topics: [{ id: "foundations-of-chemistry", title: "Foundations of Chemistry" }]
+    },
+
+    {
+      id: "general-chemistry",
+      title: "General Chemistry",
+      topics: [{ id: "general-chemistry", title: "General Chemistry" }]
+    },
+
+    {
+      id: "inorganic-chemistry",
+      title: "Inorganic Chemistry",
+      topics: [{ id: "inorganic-chemistry", title: "Inorganic Chemistry" }]
+    },
+
+    {
+      id: "organic-chemistry",
+      title: "Organic Chemistry",
+      topics: [{ id: "organic-chemistry", title: "Organic Chemistry" }]
+    },
+
+    {
+      id: "physical-chemistry",
+      title: "Physical Chemistry",
+      topics: [{ id: "physical-chemistry", title: "Physical Chemistry" }]
+    },
+
+    {
+      id: "analytical-chemistry",
+      title: "Analytical Chemistry",
+      topics: [{ id: "analytical-chemistry", title: "Analytical Chemistry" }]
+    },
+
+    {
+      id: "biochemistry",
+      title: "Biochemistry",
+      topics: [{ id: "biochemistry", title: "Biochemistry" }]
+    },
+
+    {
+      id: "materials-chemistry",
+      title: "Materials Chemistry",
+      topics: [{ id: "materials-chemistry", title: "Materials Chemistry" }]
+    },
+
+    {
+      id: "environmental-chemistry",
+      title: "Environmental Chemistry",
+      topics: [{ id: "environmental-chemistry", title: "Environmental Chemistry" }]
+    },
+
+    {
+      id: "industrial-engineering-chemistry",
+      title: "Industrial & Engineering Chemistry",
+      topics: [{ id: "industrial-engineering-chemistry", title: "Industrial & Engineering Chemistry" }]
+    },
+
+    {
+      id: "electrochemistry",
+      title: "Electrochemistry",
+      topics: [{ id: "electrochemistry", title: "Electrochemistry" }]
+    },
+
+    {
+      id: "nuclear-chemistry",
+      title: "Nuclear Chemistry",
+      topics: [{ id: "nuclear-chemistry", title: "Nuclear Chemistry" }]
+    },
+
+    {
+      id: "computational-ai-chemistry",
+      title: "Computational & AI Chemistry",
+      topics: [{ id: "computational-ai-chemistry", title: "Computational & AI Chemistry" }]
+    },
+
+    {
+      id: "frontier-chemistry",
+      title: "Frontier Chemistry",
+      topics: [{ id: "frontier-chemistry", title: "Frontier Chemistry" }]
+    },
+
+    {
+      id: "chemistry-database-layer",
+      title: "Chemistry Database Layer",
+      topics: [{ id: "chemistry-database-layer", title: "Chemistry Database Layer" }]
+    }
+
+  ]
+}
+
+
+,
+{
+  id: "mathematics-computation",
+  title: "Mathematics & Computational Civilization",
+  description:
+    "Pure mathematics, applied mathematics, numerical methods, scientific computing, AI systems and computational civilization.",
+
+  categories: [
+    {
+      id: "pure-mathematics",
+      title: "Pure Mathematics",
+      topics: [{ id: "pure-mathematics", title: "Pure Mathematics" }]
+    },
+    {
+      id: "applied-mathematics",
+      title: "Applied Mathematics",
+      topics: [{ id: "applied-mathematics", title: "Applied Mathematics" }]
+    },
+    {
+      id: "computational-mathematics",
+      title: "Computational Mathematics",
+      topics: [{ id: "computational-mathematics", title: "Computational Mathematics" }]
+    },
+    {
+      id: "engineering-ai-systems",
+      title: "Engineering & AI Systems",
+      topics: [{ id: "engineering-ai-systems", title: "Engineering & AI Systems" }]
+    }
+  ]
+}
+
 ];
