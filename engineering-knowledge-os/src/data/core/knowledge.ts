@@ -258,33 +258,82 @@ export const knowledge = [
     ]
   },
 
-  {
-    id: "automation",
-    title: "Automation",
-    description: "PLC, SCADA, industrial networks, sensors, actuators and process control.",
-    categories: [
-      {
-        id: "plc-programming",
-        title: "PLC Programming",
-        topics: [
-          { id: "plc-architecture", title: "PLC Architecture" },
-          { id: "scan-cycle", title: "Scan Cycle" },
-          { id: "ladder-logic", title: "Ladder Logic" },
-          { id: "interlocks", title: "Interlocks" }
-        ]
-      },
-      {
-        id: "scada-hmi",
-        title: "SCADA / HMI",
-        topics: [
-          { id: "hmi-design", title: "HMI Design" },
-          { id: "tags", title: "Tags" },
-          { id: "trends", title: "Trends" },
-          { id: "alarms", title: "Alarms" }
-        ]
-      }
-    ]
-  }
+  
+
+{
+  id: "automation",
+  title: "Automation",
+  description:
+    "PLC, SCADA, HMI, industrial networks, sensors, actuators, building automation, BMS, digital twins, predictive maintenance and advanced automation systems.",
+
+  categories: [
+    {
+      id: "advanced-automation",
+      title: "Advanced Automation",
+      topics: [
+        { id: "digital-twin-automation", title: "Digital Twin Automation" },
+        { id: "industrial-iot", title: "Industrial Iot" },
+        { id: "predictive-maintenance", title: "Predictive Maintenance" }
+      ]
+    },
+    {
+      id: "building-automation",
+      title: "Building Automation",
+      topics: [
+        { id: "chiller-plant-automation", title: "Chiller Plant Automation" },
+        { id: "energy-optimization-control", title: "Energy Optimization Control" },
+        { id: "hvac-automation", title: "Hvac Automation" }
+      ]
+    },
+    {
+      id: "control-systems",
+      title: "Control Systems",
+      topics: [
+        { id: "interlocks", title: "Interlocks" },
+        { id: "pid-control", title: "Pid Control" },
+        { id: "sequencing-logic", title: "Sequencing Logic" }
+      ]
+    },
+    {
+      id: "industrial-networks",
+      title: "Industrial Networks",
+      topics: [
+        { id: "bacnet-automation", title: "Bacnet Automation" },
+        { id: "modbus-automation", title: "Modbus Automation" },
+        { id: "profinet-ethernet-ip", title: "Profinet Ethernet Ip" }
+      ]
+    },
+    {
+      id: "plc-programming",
+      title: "Plc Programming",
+      topics: [
+        { id: "ladder-logic", title: "Ladder Logic" },
+        { id: "plc-architecture", title: "Plc Architecture" },
+        { id: "scan-cycle", title: "Scan Cycle" }
+      ]
+    },
+    {
+      id: "scada-hmi",
+      title: "Scada Hmi",
+      topics: [
+        { id: "hmi-design", title: "Hmi Design" },
+        { id: "scada-architecture", title: "Scada Architecture" },
+        { id: "trends-and-alarms", title: "Trends And Alarms" }
+      ]
+    },
+    {
+      id: "sensors-actuators",
+      title: "Sensors Actuators",
+      topics: [
+        { id: "actuators", title: "Actuators" },
+        { id: "instrumentation", title: "Instrumentation" },
+        { id: "sensors", title: "Sensors" }
+      ]
+    }
+  ]
+}
+
+
 
 ,
 {

@@ -57,7 +57,7 @@ export default function Navbar() {
                   knowledge.length + 1
                 )}`}
               >
-                <div className="max-h-[68vh] w-[min(920px,92vw)] overflow-y-auto rounded-[1.5rem] border border-slate-200 bg-white p-5 shadow-2xl">
+                <div className="max-h-[70vh] w-[min(980px,94vw)] overflow-y-auto rounded-[1.5rem] border border-slate-200 bg-white p-5 shadow-2xl">
                   <h2 className="text-2xl font-black text-blue-950">
                     {domain.title}
                   </h2>
@@ -99,7 +99,7 @@ export default function Navbar() {
             </button>
 
             <div className="invisible absolute right-0 top-full z-[9999] pt-2 opacity-0 transition-all duration-200 group-hover:visible group-hover:opacity-100">
-              <div className="max-h-[68vh] w-[min(920px,92vw)] overflow-y-auto rounded-[1.5rem] border border-slate-200 bg-white p-5 shadow-2xl">
+              <div className="max-h-[70vh] w-[min(980px,94vw)] overflow-y-auto rounded-[1.5rem] border border-slate-200 bg-white p-5 shadow-2xl">
                 <div className="flex items-start justify-between gap-5">
                   <div>
                     <h2 className="text-2xl font-black text-blue-950">
@@ -133,7 +133,7 @@ export default function Navbar() {
                         </Link>
 
                         <div className="mt-3 grid gap-1">
-                          {(category === "singapore" ? codes.slice(0, 12) : codes.slice(0, 8)).map((code: any) => (
+                          {(category === "singapore" ? codes : codes).map((code: any) => (
                             <Link
                               key={code.id}
                               href={`/codes/${code.category}/${code.id}`}
